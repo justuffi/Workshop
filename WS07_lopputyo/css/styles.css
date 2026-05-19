@@ -88,3 +88,43 @@ body {
     display: none;
   }
 }
+h3 {
+  text-align: center;
+}
+
+h3 a {
+  display: inline-block;
+  background: #2d4d2d;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+h3 a:hover {
+  background: #3f6f3f;
+  transform: scale(1.05);
+}
+
+/* Teksti keskelle + helppolukuinen leveys */
+p {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Responsiivinen mobiili */
+@media (max-width: 600px) {
+  p {
+    max-width: 90%;
+  }
+
+  h3 a {
+    width: 90%;
+    text-align: center;
+  }
+}
+h2 {
+  text-align: center;
+}
